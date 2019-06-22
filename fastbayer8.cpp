@@ -29,9 +29,9 @@ unsigned char* fastbayer8(unsigned char* img, int w, int h) {
 			unsigned char* p = img + (j * w + i) * 3;
 			unsigned char* op = o + (j * w + i) * 3;
 			unsigned char c = dm8[i % 8][j % 8];
-			op[0] = p[0] < c ? 0 : 255;
-			op[1] = p[1] < c ? 0 : 255;
-			op[2] = p[2] < c ? 0 : 255;
+			op[0] = p[0] >= c * 255;
+			op[1] = p[1] >= c * 255;
+			op[2] = p[2] >= c * 255;
 		}
 	}
 	return o;
