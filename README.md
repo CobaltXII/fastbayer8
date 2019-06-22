@@ -20,4 +20,4 @@ usage: ./fastbayer8.o <file>
 
 # Credits
 
-Thanks to http://hubblesite.org for a great test image.
+Thanks to http://hubblesite.org for a great test image. Thanks to Sean T. Barrett for the stb libraries.
