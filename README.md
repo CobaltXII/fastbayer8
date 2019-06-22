@@ -1,6 +1,6 @@
 # fastbayer8
 
-Fast 8-color Bayer dithering written in C++11.
+Fast 8-color Bayer dithering written in C++11
 
 # Compilation
 
