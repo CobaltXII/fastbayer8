@@ -2,6 +2,8 @@
 
 Fast 8-color Bayer dithering written in C++11
 
+![Alt text](https://github.com/CobaltXII/fastbayer8/blob/master/fd8_hubble.png?raw=true)
+
 # Compilation
 
 ```bash
